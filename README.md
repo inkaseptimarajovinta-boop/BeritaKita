@@ -7,30 +7,31 @@ Platform berita modern yang dibangun dengan Next.js 15, Tailwind CSS, dan Genkit
 - **Modern UI:** Menggunakan ShadCN UI untuk tampilan yang bersih dan responsif.
 - **Kategori Berita:** Navigasi mudah untuk Politik, Ekonomi, Olahraga, dan Teknologi.
 
-## Cara Mengunggah ke GitHub
+## Panduan Upload ke GitHub
 
-Jika Anda ingin mengunggah proyek ini ke repositori GitHub Anda sendiri, ikuti perintah berikut:
+Ikuti langkah-langkah berikut untuk mengunggah proyek ini ke repositori Anda:
 
-1. Buat repositori kosong di GitHub.
-2. Jalankan perintah ini di terminal:
+1. **Buat Repositori Baru** di [GitHub](https://github.com/new). Jangan centang "Initialize with README".
+2. **Jalankan Perintah Berikut** di terminal project Anda:
 
 ```bash
-# Inisialisasi repositori lokal
+# Inisialisasi git (jika belum)
 git init
 
-# Tambahkan semua file (pastikan .gitignore sudah benar)
+# Tambahkan semua file (terproteksi oleh .gitignore)
 git add .
 
-# Commit perubahan
+# Buat commit
 git commit -m "Initial commit: BeritaKita App"
 
-# Set branch utama ke main
+# Atur branch utama ke main
 git branch -M main
 
 # Tambahkan remote (Ganti URL dengan milik Anda)
+# Contoh: git remote add origin https://github.com/USER_ANDA/NAMA_REPO_ANDA.git
 git remote add origin https://github.com/USER_ANDA/NAMA_REPO_ANDA.git
 
-# Unggah ke GitHub
+# Unggah kode
 git push -u origin main
 ```
 
