@@ -1,0 +1,35 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "politics-1",
+      "description": "Indonesian parliament building",
+      "imageUrl": "https://picsum.photos/seed/politics1/800/600",
+      "imageHint": "government building"
+    },
+    {
+      "id": "economy-1",
+      "description": "Digital stock market display",
+      "imageUrl": "https://picsum.photos/seed/economy1/800/600",
+      "imageHint": "stock market"
+    },
+    {
+      "id": "tech-1",
+      "description": "Future artificial intelligence visualization",
+      "imageUrl": "https://picsum.photos/seed/tech1/800/600",
+      "imageHint": "technology AI"
+    },
+    {
+      "id": "sports-1",
+      "description": "Professional stadium lights",
+      "imageUrl": "https://picsum.photos/seed/sports1/800/600",
+      "imageHint": "sports stadium"
+    },
+    {
+      "id": "hero-1",
+      "description": "Modern newsroom background",
+      "imageUrl": "https://picsum.photos/seed/hero/1200/800",
+      "imageHint": "news room"
+    }
+  ]
+}
